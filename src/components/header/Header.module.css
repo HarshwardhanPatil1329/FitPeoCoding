@@ -1,0 +1,103 @@
+.mainContainer{
+background-color: #2d2d2d;
+margin: 0;
+padding: 0;
+height: 10%;
+width: 100%;
+position:fixed;
+z-index: 1;
+}
+.searchContainer{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #acacbb;
+    border-radius: 3px;
+    width: 50%;
+    margin-top: 17px;
+    margin-left: 5%;
+    background-color: #2a2b30;
+    padding: 2px;
+    height: 30px;
+}
+.search{
+    border: none;
+    background-color: #2a2b30;
+    color: white;
+    width: 100%;
+    outline:none;
+    
+}
+.search ::placeholder{
+    color: white;
+}
+.searchIcon{
+    color: white;
+    font-size: 28px;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    background-color: #808080;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding-top: 3px;
+    padding-left: 3px;
+    /* display: inline; */
+}
+.circle1{
+    height: 40px;
+    width: 40px;
+    background-color: #808080;
+    border-radius: 50%;
+    margin-right: 30px;
+    /* display: inline; */
+}
+
+.container{
+    display: flex;
+    margin-top: 15px;
+    justify-content: flex-end;
+    margin-right: 20px;
+    padding-left: 7;
+    padding-top: 7;
+
+        
+
+    
+    /* background-color: red; */
+}
+
+.container2{
+    display: flex;
+    margin-top: 15px;
+    justify-content: flex-end;
+     /* background-color: red; */
+}
+.email{
+    color:white;
+    margin-top: 5px;
+    margin-left: 7px;
+    padding-right: 10px;
+}
+.emailNotification{
+    color:white;
+    margin-top: 5px;
+    margin-left: 7px;
+    
+}
+.widget{
+    color: #0096FF;
+    /* fill: #0096FF; */
+    height: 50px !important;
+    width: 50px !important;
+    margin-top: 10px !important;
+    margin-left: 7px !important;
+  }
+@media screen and (max-width: 768px){
+    .container{
+        margin-right: 35px;
+    }
+    .searchContainer{
+        margin-left: 10px;
+    }
+}

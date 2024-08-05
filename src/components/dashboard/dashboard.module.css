@@ -1,0 +1,44 @@
+.tableContainer{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.table{
+    width: 100%;
+    color: #fff;
+    height: fit-content;
+}
+th,td{
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff4d;
+    font-size: 18px;
+}
+
+.statusDelivered{
+    color: #fff;
+    background-color: #28a745;
+    padding: 5px 10px;
+    border-radius: 4px;
+    width: 150px;
+}
+.statusCancelled{
+    color: #fff;
+    background-color: #dc3545;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.customerImg{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+@media screen and (max-width:600px){
+    .table{
+        overflow-x: scroll;
+    }
+}

@@ -1,0 +1,40 @@
+
+.drawer{
+    background-color: red;
+    width: fit-content;
+    overflow-y: scroll;
+    scrollbar-width: 0;
+    & .MuiDrawer-paper{
+        background-color:black;
+        width:fit-content;
+    }
+}
+
+.navLogo{
+    height: 10%;
+}
+.listitembutton {
+    background-color: #000000;
+    /* align-items: center;
+    display: flex; */
+    height: 30px;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+  .listitemicon {
+    /* height: 35px; */
+    padding-top: 16px;
+    margin-bottom: 20px;
+    color: #448dfb;
+    position: relative;
+    align-self: center;
+    justify-content: center;
+  }
+  .widget{
+    color: #0096FF;
+    /* fill: #0096FF; */
+    height: 50px !important;
+    width: 50px !important;
+    margin-left: 7px !important;
+  }
