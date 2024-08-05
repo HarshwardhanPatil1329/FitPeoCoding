@@ -15,6 +15,7 @@ th,td{
     text-align: left;
     border-bottom: 1px solid #ffffff4d;
     font-size: 18px;
+    width: fit-content;
 }
 
 .statusDelivered{
@@ -37,8 +38,12 @@ th,td{
     margin-right: 3px;
     vertical-align: middle;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     .table{
+        overflow-x: scroll;
+        margin-left: 20%;
+    }
+    .tableContainer{
         overflow-x: scroll;
     }
 }
